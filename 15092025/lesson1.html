@@ -5,63 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    
     <title>CatPhotos</title>
 </head>
 
 <body>
-    <h1>CatPhotoApp</h1>
-    <address>nguyen van nguyen</address>
-    <main>
+    <h1>Cat Photo App</h1>
+    <address class="abc">nguyen van nguyen</address>
+    <hr>
+    <main class="row">
 
-        <section>
-            <article>
-                <h2><hr>Cat Photos</h2>
-                <address><pre>Dear Nguyen</pre>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem deleniti in accusamus, ratione
-                    suscipit dignissimos quaerat quisquam mollitia cupiditate libero. Neque officiis possimus temporibus
-                    dicta ipsam sed maiores non necessitatibus!</address>
-                <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute
-                        cats</a> online!</p>
-                <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-                <a href="https://freecatphotoapp.com"><img
-                        src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-                        alt="A cute orange cat lying on its back."></a>
-            </article>
+        <section class="catPhotos  ">
+
+            <h2>Cat Photos</h2>
+            <address>
+                <pre>Dear Nguyen,</pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti in
+                accusamus, ratione
+                suscipit dignissimos quaerat quisquam mollitia cupiditate libero. Neque officiis possimus temporibus
+                dicta ipsam sed maiores non necessitatibus!
+            </address>
+            <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute
+                    cats</a> online!</p>
+            <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+            <a href="https://freecatphotoapp.com"><img
+                    src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                    alt="A cute orange cat lying on its back."></a>
+
+
+
 
         </section>
-        <section>
-            
+        <section class="catList ">
+
             <h2>Cat Lists</h2>
             <div>
-            <h3 id="love">Things cats love:</h3>
-            <ul>
-                <li>catnip</li>
-                <li>laser pointers</li>
-                <li>lasagna</li>
-            </ul>
-            <figure>
-                <img target="_top" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
-                    alt="A slice of lasagna on a plate." loading="lazy">
-                <figcaption>Cats <em>love</em> lasagna.</figcaption>
-            </figure></div><div>
-            <h3 id="hate">Top 3 things cats hate:</h3>
-            <ol>
-                <li>flea treatment</li>
-                <li>thunder</li>
-                <li>other cats</li>
-            </ol>
-            <figure>
-                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
-                    alt="Two tabby kittens sleeping together on a couch.">
-                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
-            </figure>
+                <h3 id="love">Things cats love:</h3>
+                <ul>
+                    <li>catnip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <figure>
+                    <img target="_top" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                        alt="A slice of lasagna on a plate." loading="lazy">
+                    <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                </figure>
+            </div>
+            <div>
+                <h3 id="hate">Top 3 things cats hate:</h3>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                        alt="Two tabby kittens sleeping together on a couch.">
+                    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                </figure>
             </div>
             <a href="#love">Jump to Cat love</a>
 
         </section>
-        <section>
+        <section class="catForm ">
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                
+
                 <fieldset>
                     <legend><i><b>Is</b></i> your <mark>cat</mark> an <sup>indoor</sup> or <sub>outdoor</sub> cat?
                     </legend>
@@ -76,34 +85,34 @@
                     <input id="energetic" type="checkbox" name="personality" value="energetic"> <label
                         for="energetic">Energetic</label>
                 </fieldset>
-                
+
                 <input type="text" name="catphotourl" placeholder="cat photo URL" required>
                 <button type="submit">Submit</button>
             </form>
         </section>
-        <section>
+        <section class="catTable ">
             <h2>Cat Table</h2>
-            <table border="solid 1px" >
-               <tr>
-                <th>Name</th>
-                <th>Color</th>
-                <th>Personality</th>
-               </tr>
-               <tr>
-                <td>Mimi</td>
-                <td>White</td>
-                <td>Loving</td>
-               </tr>
-               <tr>
-                <td>Moew</td>
-                <td>Black</td>
-                <td>Lazy</td>
-               </tr>
-               <tr>
-                <td>Dog</td>
-                <td>White</td>
-                <td>Energetic</td>
-               </tr>
+            <table border="solid 1px">
+                <tr>
+                    <th>Name</th>
+                    <th>Color</th>
+                    <th>Personality</th>
+                </tr>
+                <tr>
+                    <td>Mimi</td>
+                    <td>White</td>
+                    <td>Loving</td>
+                </tr>
+                <tr>
+                    <td>Moew</td>
+                    <td>Black</td>
+                    <td>Lazy</td>
+                </tr>
+                <tr>
+                    <td>Dog</td>
+                    <td>White</td>
+                    <td>Energetic</td>
+                </tr>
             </table>
         </section>
     </main>
