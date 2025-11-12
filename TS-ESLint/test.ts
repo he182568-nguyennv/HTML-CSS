@@ -1,0 +1,1 @@
+var nguyen: string = 'nguyen';
