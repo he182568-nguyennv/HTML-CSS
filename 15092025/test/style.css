@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+h1{
+    color: brown;
+    text-align: center;
+}
+ .abc{
+    text-align: center;
+}
+section{
+    flex-direction: column;
+    margin:20px;
+}
+.catPhotos h2 {
+    color: dodgerblue;
+}
+.catPhotos a:hover {
+    color: red;
+}
+.xyz {
+    list-style-type:armenian;
+    list-style: decimal;
+    
+}
+.yuz{
+
+}
+
+.catList{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    

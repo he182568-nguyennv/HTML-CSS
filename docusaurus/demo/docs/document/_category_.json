@@ -1,0 +1,11 @@
+{
+  "label": "Document",
+  "position": 2,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Top front end developer skills that you need to know in 2025",
+    "image": "/img/docusaurus-social-card.jpg"
+  }
+}

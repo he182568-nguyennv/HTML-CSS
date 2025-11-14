@@ -1,9 +1,0 @@
-main{
-    display: flex;
-}
-section{
-    flex-direction: column;
-    margin:20px;
-}
-
-    
